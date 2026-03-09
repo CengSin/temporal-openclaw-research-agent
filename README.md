@@ -1,4 +1,4 @@
-# openclaw-workflow-usecase
+# temporal-openclaw-research-agent
 
 > 用 **Temporal** 编排 **OpenClaw Agent**，构建可靠、可重试的 AI 自动化工作流。
 
@@ -96,8 +96,8 @@ temporal server start-dev
 
 ```bash
 # 克隆仓库
-git clone https://github.com/CengSin/openclaw-workflow-usecase.git
-cd openclaw-workflow-usecase
+git clone https://github.com/CengSin/temporal-openclaw-research-agent.git
+cd temporal-openclaw-research-agent
 
 # 运行（一体化模式，自动内嵌启动 Worker）
 go run . "写一篇关于新能源行业过去一周有关的研报的脱水研报"
