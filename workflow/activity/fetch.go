@@ -32,7 +32,7 @@ func FetchResearchReports(ctx context.Context, input ResearchReportInput) (strin
 
 你的任务：
 - 理解用户真正需要的研报范围、时间范围、行业范围和重点信息。
-- 自主使用你可用的 tools / skills / data sources 去检索最相关的研报、行业资料和原始数据。
+- 使用ifind-report, research-ai-picker, research-orchestrator 去检索最相关的研报、行业资料和原始数据。
 - 当前阶段只负责"抓取资料"，不要做最终成文。
 - 对第一步找到的每个 URL，调用 web_fetch 读取完整正文：
 	- 提取标题、发布机构、发布日期、核心观点、关键数据
